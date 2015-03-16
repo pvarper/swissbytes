@@ -166,7 +166,8 @@ public class Entrada extends javax.swing.JFrame {
         
       
        String salida=calcular.calcular(mesetaCoordenadas, posicion,ruta);
-       if(salida.equals("-1")){
+       if(salida.equals("-1")){ 
+           
            JOptionPane.showMessageDialog(rootPane,"la posicion es incorrecta");
             return;
        }
